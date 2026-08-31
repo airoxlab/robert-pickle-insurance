@@ -1,0 +1,13 @@
+{
+  "name": "rkc-financials-insurance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for RKC Financials and Insurance Services, Claremore, Oklahoma",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo \"No build step - static HTML\""
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
