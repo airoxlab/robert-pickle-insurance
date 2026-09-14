@@ -8,7 +8,7 @@ Plain HTML, one CSS file, one JS file. No build step, no framework, no npm insta
 | Field | Value |
 |---|---|
 | Name | RKC Financials and Insurance Services |
-| Category | Insurance agency (mobile — no storefront) |
+| Category | Independent insurance brokerage (office in Claremore; most business by phone; commercial trucking specialists) |
 | Phone | (580) 471-5506 |
 | Location | Claremore, OK 74017 — serving all of Rogers County |
 
@@ -17,7 +17,7 @@ Plain HTML, one CSS file, one JS file. No build step, no framework, no npm insta
 | File | Purpose | Primary keyword target |
 |---|---|---|
 | `index.html` | Home | insurance agency Claremore OK |
-| `about.html` | About the agency, mobile model, standards | local insurance agent Claremore |
+| `about.html` | About the agency, broker model, standards | local insurance agent Claremore |
 | `services.html` | All lines of coverage, hub page | insurance services Rogers County |
 | `auto-insurance.html` | Long-form auto guide + FAQ | auto insurance Claremore OK |
 | `home-insurance.html` | Home / renters / mobile home guide + FAQ | homeowners insurance Claremore |
