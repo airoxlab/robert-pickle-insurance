@@ -442,3 +442,6 @@ caption{text-align:left}
 .reach{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 20px;margin-top:18px}
 .reach b{font-family:var(--serif);font-size:2.1rem;line-height:1;color:var(--brand-800)}
 .reach span{font-size:.95rem;color:var(--muted);font-weight:600}
+
+/* Bold text inside dark sections must not fall back to navy */
+.section--ink strong,.cta-band strong,.site-footer strong,.callbar strong{color:var(--gold-300)}
