@@ -36,8 +36,8 @@ Supporting files: `robots.txt`, `sitemap.xml`, `assets/css/style.css`, `assets/j
 3. **Availability hours** in `contact.html` are placeholders (marked with an HTML comment).
 4. **License number, year established, carrier appointments, staff bios** — deliberately left blank
    in `about.html` (marked with an HTML comment) rather than invented. Add the real details.
-5. ~~**Photos.**~~ Done — the client supplied the R.K.C logo and a portrait of Robert Pickle. Both
-   live in `assets/img/` (`rkc-logo.png`, `robert-pickle.jpg`): the logo is the header/footer brand
+5. ~~**Photos.**~~ Done — the client supplied the R.K.C logo and a portrait of Jacob Poulin. Both
+   live in `assets/img/` (`rkc-logo.png`, `jacob-poulin.jpg`): the logo is the header/footer brand
    mark on every page, and the portrait sits in the "Who you are working with" block on `about.html`.
 
 ## Client-supplied facts (confirmed by the owner)
@@ -45,7 +45,7 @@ Supporting files: `robots.txt`, `sitemap.xml`, `assets/css/style.css`, `assets/j
 - **Serves 40+ states** — shown in the homepage hero, the hero trust list, and the owner block on `about.html`.
 - **Motto: integrity and faith** — the values section on `about.html` is headed "Built on integrity and
   faith", and the owner block explains what each word means in practice.
-- **Owner:** Robert Pickle (portrait supplied).
+- **Owner:** Jacob Poulin (portrait supplied).
 
 ## Contact forms
 
