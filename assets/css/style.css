@@ -389,3 +389,35 @@ caption{text-align:left}
 .chips.carriers{justify-content:center}
 .chips.carriers li{font-size:1.02rem;font-weight:700;padding:12px 22px;letter-spacing:.02em}
 @media (max-width:600px){.chips.carriers li{font-size:.95rem;padding:10px 16px}}
+
+/* ---- Brand logo (client-supplied) ---- */
+.brand-logo{
+  height:54px;width:auto;flex:none;display:block;
+  /* gold artwork on a light header: a soft dark halo keeps the thin strokes legible */
+  filter:drop-shadow(0 1px 1.5px rgba(16,31,56,.4));
+}
+/* the logo already carries the wordmark, so the text lockup would be a duplicate */
+.brand-text{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
+}
+@media (max-width:640px){.brand-logo{height:44px}}
+.site-footer .brand-logo{height:56px;filter:none}
+
+/* ---- Owner portrait ---- */
+.owner-grid{display:grid;gap:34px;align-items:center}
+@media (min-width:860px){.owner-grid{grid-template-columns:minmax(0,300px) 1fr;gap:44px}}
+.owner-photo{
+  margin:0;border-radius:18px;overflow:hidden;border:1px solid var(--line);
+  background:var(--paper-3);box-shadow:0 18px 44px rgba(16,31,56,.14);
+}
+.owner-photo img{width:100%;height:auto;display:block;aspect-ratio:4/5;object-fit:cover;object-position:center 22%}
+.owner-photo figcaption{
+  padding:12px 16px;font-size:.86rem;font-weight:600;color:var(--muted);
+  border-top:1px solid var(--line);background:#fff;
+}
+
+/* ---- Reach / states band ---- */
+.reach{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 20px;margin-top:18px}
+.reach b{font-family:var(--serif);font-size:2.1rem;line-height:1;color:var(--brand-800)}
+.reach span{font-size:.95rem;color:var(--muted);font-weight:600}
